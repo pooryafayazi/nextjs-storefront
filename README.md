@@ -26,14 +26,14 @@ A Next.js (App Router) project configured with **Emotion (SSR-ready)**, a **Them
 
 ## Requirements
 
-- **Node.js**: recommended LTS (latest stable)
-- **npm** (or yarn/pnpm if you prefer)
+- **Node.js**: recommended v 22.15.0
+- **npm** v 11.7.0 (or yarn/pnpm if you prefer)
 
 ---
 
 ## Getting Started
 
-### 1) Install dependencies
+### 1) Install Next v 16.1.1 - react & react-dom v 19.2.3
 
 ```bash
 npx create-react-app
@@ -77,7 +77,7 @@ git push
 
 ## Code Quality Setup (ESLint + Prettier)
 
-### ESLint initialization
+### ESLint initialization v 9.39.2
 
 If not already configured:
 
@@ -158,7 +158,7 @@ indent_size = 2
 
 ## Emotion Setup (App Router + SSR)
 
-### 1) Install Emotion packages
+### 1) Install Emotion packages "emotion/react: 11.14.0" "emotion/styled: 11.14.1" "emotion/cache: 11.14.0" "emotion/core: 11.0.0"
 
 ```bash
 npm i @emotion/react @emotion/styled @emotion/cache
